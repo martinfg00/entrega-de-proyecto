@@ -4,30 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sandalias</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../assets/img/header/icon.ico">
 </head>
 <body>
-    <header>
-        <div class="navClass">
-            <a class="imgClass" href="../index.html"><img src="../assets/img/header/logo.png" alt="Logo"></a>
-            <nav class="navBar">
-                <ul>
-                    <li>
-                        <a href="./botines.html">BOTINES</a>
-                        <a href="./zapatillas.html">ZAPATILLAS</a>
-                        <a href="../index.html">INICIO</a>
-                        <a href="#">SANDALIAS</a>
-                        <a href="./info.html">INFO</a>
-                    </li>
-                </ul>
-                <ul class="userClass">
+    <header class="sticky-top">
+        <div class="imgClass">
+            <a href="../index.html"><img src="../assets/img/header/logo.png" alt="Logo"></a>
+        </div>
+        <nav>
+            <ul class="navBar">
+                    <li><a href="./botines.html">BOTINES</a></li>
+                    <li><a href="./zapatillas.html">ZAPATILLAS</a></li>
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><a href="#">SANDALIAS</a></li>
+                    <li><a href="./info.html">INFO</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul class="navBar2">
                     <li><a href=""><img src="../assets/img/header/search.png" alt="search"></a></li>
                     <li><a href=""><img src="../assets/img/header/usuario.png" alt="user"></a></li>
                     <li><a href=""><img src="../assets/img/header/buy.png" alt="buy"></a></li>
+            </ul>
+        </nav>
+        <nav class="navbarResolution">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false"><img src="./assets/img/header/menu.png" alt=""></a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./botines.html">BOTINES</a></li>
+                    <li><a class="dropdown-item" href="./zapatillas.html">ZAPATILLAS</a></li>
+                    <li><a class="dropdown-item" href="#">INICIO</a></li>
+                    <li><a class="dropdown-item" href="./sandalias.html">SANDALIAS</a></li>
+                    <li><a class="dropdown-item" href="./info.html">INFO</a></li>
+                    <li><a class="dropdown-item" href="#"><img src="../assets/img/header/search.png" alt="search"></a>
+                    </li>
+                    <li><a class="dropdown-item" href="#"><img src="../assets/img/header/usuario.png" alt="user"></a>
+                    </li>
+                    <li><a class="dropdown-item" href="#"><img src="../assets/img/header/buy.png" alt="buy"></a></li>
                 </ul>
-            </nav>
-        </div>
+            </li>
+        </nav>
     </header>
     <main>
         <div class="h1Class">
@@ -39,24 +58,21 @@
                     <a class="imgCard" href=""><img src="../assets/img/main/sandalias/sandalia-1.png" alt="sandalia-1"></a>
                 </div>
                 <h2 class="cardH2">Sandalia-1</h2>
-                <p class="cardP">Descripccion</p>
-                <button class="cardButton"><a href="">Compra ahora!</a></button>
+                <a class="cardA" href="">Compra ya!</a>
             </article>
             <article class="card">
                 <div>
                     <a class="imgCard" href=""><img src="../assets/img/main/sandalias/sandalia-2.png" alt="sandalia-2"></a>
                 </div>
                 <h2 class="cardH2">Sandalia-2</h2>
-                <p class="cardP">Descripccion</p>
-                <button class="cardButton"><a href="">Compra ahora!</a></button>
+                <a class="cardA" href="">Compra ya!</a>
             </article>
             <article class="card">
                 <div>
                     <a class="imgCard" href=""><img src="../assets/img/main/sandalias/sandalia-3.png" alt="sandalia-3"></a>
                 </div>
                 <h2 class="cardH2">Sandalia-3</h2>
-                <p class="cardP">Descripccion</p>
-                <button class="cardButton"><a href="">Compra ahora!</a></button>
+                <a class="cardA" href="">Compra ya!</a>
             </article>
         </section>
         <section class="cardSection">
@@ -65,28 +81,24 @@
                     <a href=""><img src="../assets/img/main/sandalias/sandalia-4.webp" alt="sandalia-4"></a>
                 </div>
                 <h2 class="cardH2">Sandalia-4</h2>
-                <p class="cardP">Descripccion</p>
-                <button class="cardButton"><a href="">Compra ahora!</a></button>
+                <a class="cardA" href="">Compra ya!</a>
             </article>
             <article class="card">
                 <div>
                     <a href=""><img src="../assets/img/main/sandalias/sandalia-5.webp" alt="sandalia-5"></a>
                 </div>
                 <h2 class="cardH2">Sandalia-5</h2>
-                <p class="cardP">Descripccion</p>
-                <button class="cardButton"><a href="">Compra ahora!</a></button>
+                <a class="cardA" href="">Compra ya!</a>
             </article>
             <article class="card">
                 <div>
                     <a class="imgCard" href=""><img src="../assets/img/main/sandalias/sandalias-6.webp" alt="sandalia-6"></a>
                 </div>
                 <h2 class="cardH2">Sandalia-6</h2>
-                <p class="cardP">Descripccion</p>
-                <button class="cardButton"><a href="">Compra ahora!</a></button>
+                <a class="cardA" href="">Compra ya!</a>
             </article>
         </section>
     </main>
-
     <footer>
         <section class="subClass">
             <div>
@@ -124,10 +136,11 @@
         </article>
         <section class="footerEnd">
             <div>
-                <p>Copyright - 2023. Todos los derechos reservados. Defensa de las y los consumidores. Para reclamos <a
-                        href="https://www.coderhouse.com/faqs" target="_blank">ingrese aquí</a></p>
+                <p>Copyright - 2023. Todos los derechos reservados. Defensa de las y los consumidores. Para reclamos <a href="https://www.coderhouse.com/faqs" target="_blank">ingrese aquí</a></p>
             </div>
         </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 </html>

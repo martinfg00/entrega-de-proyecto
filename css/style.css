@@ -6,11 +6,9 @@
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@1,800&display=swap');
 
 /* header */
-
 .navbarResolution{
     display: block;
 }
@@ -19,7 +17,7 @@ body {
     width: 3.75rem;
     margin-left: 1.25rem;
 }
-.navClass{
+header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -28,17 +26,19 @@ body {
     padding: .875rem 0rem;
     width: 100%;
     word-spacing: 1.25rem;
-    position: sticky;
+    /* position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 1; */
 }
 .navBar{
     display: flex;
     list-style: none;
-    gap: .625rem;
-    padding-top: .625rem;
+    justify-content: center;
+    align-items: center;
+    gap: .9375rem;
+    padding-top: .9375rem;
 }
-.navBar ul li a{
+.navBar li a{
     text-decoration: none;
     color: white;
     font-size: 1.0625rem;
@@ -49,9 +49,10 @@ body {
 }
 .navBar2{
     display: flex;
+    align-items: center;
     list-style: none;
     gap: 1.25rem;
-    padding: 0rem 1.25rem;
+    padding: .9375rem 1.25rem 0px 0px;
 }
 .navBar2 li a{
     text-decoration: none;
@@ -116,7 +117,7 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    transition: .5s;
+    transition: .90s;
 }
 .card:hover{
     background-color: #18181833;
@@ -178,6 +179,8 @@ body {
 }
 .articleClass {
     padding: 1.25rem 1.25rem;
+    list-style: none;
+    text-decoration: none;
 }
 
 /* footer */
@@ -203,7 +206,13 @@ footer {
 .redClass{
     display: flex;
     justify-content: center;
+    gap: 20px;
     list-style: none;
+    text-decoration: none;
+}
+.redClass a{
+    list-style: none;
+    text-decoration: none;
 }
 .articleClass{
     display: flex;
@@ -265,6 +274,25 @@ footer {
 
 @media (max-width: 425px) {
     /* header x 425px */
+    .dropdown-menu{
+        background-color: #181818 !important;
+    }
+    .dropdown-menu a{
+        color: white !important;
+    }
+    .dropdown-menu a:hover{
+        background-color: grey !important;
+    }
+    .dropdown-item{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .navBar{
+        display: none;
+    }
+    .navBar2{
+        display: none;
+    }
     .navbarResolution{
         display: block;
     }
