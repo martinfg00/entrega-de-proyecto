@@ -206,7 +206,7 @@ footer {
 .redClass{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 2.5rem;
     list-style: none;
     text-decoration: none;
 }
@@ -295,11 +295,46 @@ footer {
     }
     .navbarResolution{
         display: block;
+        list-style: none;
+        text-decoration: none;
+        padding-right: 45%;
     }
-
+    
     /* main x 425px */
     .galeriaClass{
         display: none;
     }
+
     /* footer x 425px */
+    .subClass{
+        gap: .625rem;
+        color: white;
+        font-size: .625rem;
+    }
+    .subClass h2{
+        font-size: .625rem;
+        font-weight: bold;
+    }
+    .footerEnd{
+        font-size: .375rem;
+        text-align: center;
+    }
+}
+@media (max-width: 320px){
+    
+    /* header x 320px */
+
+    /* main x 320px */
+
+    /* footer x 320px */
+    .subClass{
+        font-size: .5rem;
+    }
+    .subClass h2{
+        font-size: .5rem;
+    }
+    .footerEnd{
+        font-size: .5rem;
+        text-align: center;
+    }
 }
