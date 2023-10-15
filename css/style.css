@@ -26,9 +26,6 @@ header{
     padding: .875rem 0rem;
     width: 100%;
     word-spacing: 1.25rem;
-    /* position: sticky;
-    top: 0;
-    z-index: 1; */
 }
 .navBar{
     display: flex;
@@ -59,12 +56,19 @@ header{
 }
 
 /* main */
-
+.articleClass {
+    display: flex;
+    justify-content: center;
+    color: #181818;
+}
+.articleClass div h2{
+    color: #181818;
+}
 .carruselClass{
     margin: 1.25rem;
 }
 .h1Class {
-    padding-top: 6.25rem;
+    padding-top: 1.25rem;
     text-align: center;
     color: #181818;
 }
@@ -182,7 +186,9 @@ header{
     list-style: none;
     text-decoration: none;
 }
-
+.articleClass h1{
+    color: #181818;
+} 
 /* footer */
 
 footer {
@@ -304,7 +310,6 @@ footer {
     .galeriaClass{
         display: none;
     }
-
     /* footer x 425px */
     .subClass{
         gap: .625rem;
