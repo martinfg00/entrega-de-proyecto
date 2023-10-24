@@ -1,0 +1,20 @@
+.item1 {
+    grid-area: img1;
+    @include item;
+}
+.item2 {
+    grid-area: img2;
+    @include item;
+}
+.item3 {
+    grid-area: img3;
+    @include item;
+}
+.item4 {
+    grid-area: img4;
+    @include item;
+}
+.item5 {
+    grid-area: img5;
+    @include item;
+}

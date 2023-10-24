@@ -1,49 +1,31 @@
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #181818;
-    padding: .875rem 0rem;
-    word-spacing: 1.25rem;
-    a{
-        img{
-            height: 3.75rem;
-            width: 3.75rem;
-            margin-left: 1.25rem;
-        }
-    }
-}
 
-.navBar{ 
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-    ul{
-        list-style: none;
-        display: flex;
-        gap: .9375rem;
-        li{
-            a{
-                text-decoration: none;
-                color: white;
-                font-size: 1.0625rem;
-                font-weight: bold;
-                &:hover{
-                    color: darkcyan;
-                }
-            }
-        }
-    }
-    div{
-        display: flex;
-        align-items: center;
-        list-style: none;
-        gap: 1.25rem;
-        padding: .9375rem 1.25rem 0px 0px;
-        a{
-                text-decoration: none;
-        }
-    }
-}
+// Utilities
+
+@import "./utilities/variables";
+@import "./utilities/maps";
+@import "./utilities/mixins";
+@import "./utilities/function";
+
+// Base
+
+@import "./base/reset";
+@import "./base/typo";
+
+// Layout
+
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/navbar";
+// MediaAquaris
+@import "./layout/media/1440";
+@import "./layout/media/1024";
+@import "./layout/media/768";
+@import "./layout/media/425";
+@import "./layout/media/320";
+
+// Components
+
+@import "./components/boostrap";
+@import "./components/cards";
+@import "./components/items";

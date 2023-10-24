@@ -1,0 +1,38 @@
+header{
+    @include flex (row, wrap, space-between, center, .875rem);
+    height: 100px;
+    width: 100%;
+    background-color: map-get($color, negro);
+    a{
+        .logo{
+            height: 3.75rem;
+            width: 3.75rem;
+            margin-left: 1.25rem;
+        }
+    }
+    .navBar2{
+        list-style: none;
+        padding: .9375rem;
+        li{
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.navBar{
+    @include flex (row, wrap, center, center, .9375rem);
+    padding-top: .9375rem;
+    li{
+        a{
+            text-decoration: none;
+            color: map-get($color, blanco);
+            font-size: 1.0625rem;
+            font-weight: bold;
+            &:hover{
+                color: map-get($color, acyan);
+            }
+        }
+    }
+}

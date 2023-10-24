@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+    body{
+        height: 100vh;
+    }
+    /* header x 768px */
+    .navBar{
+        gap: .4375rem;
+    }
+    .navBar ul li a{
+        font-size: 14px;
+    }
+    /* main x 768px */
+    .galeriaClass{
+        display: none;
+    }
+    /* footer x 768px */
+    .footerEnd{
+        font-size: .625rem;
+    }
+}

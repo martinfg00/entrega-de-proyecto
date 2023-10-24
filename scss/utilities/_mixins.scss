@@ -1,0 +1,14 @@
+@mixin flex ($direction:row, $wrap:wrap, $justify:center, $align:center, $gap:20px){
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
+
+@mixin item ($height:100%, $width:100%, $object:cover){
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

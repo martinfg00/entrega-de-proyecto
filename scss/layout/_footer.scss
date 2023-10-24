@@ -1,0 +1,69 @@
+// footer
+
+footer{
+    @include flex(column, wrap, none, none, .875rem 0rem);
+    background-color: map-get($color, negro);
+}
+
+.subClass{
+    @include flex(row, wrap, center, none, 1rem);
+    list-style: none;
+    color: map-get($color, blanco);
+    font-size: .75rem;
+    padding: .625rem;
+    h2{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    form{
+        input:first-child{
+            all:initial;
+            border-radius: 3%;
+            overflow: hidden;
+            box-shadow: .25rem .1875rem .4375rem white;
+            color: white;
+        }
+        input:nth-child(2){
+            content: "Enviar";
+            all:initial;
+            padding-left: 20px;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
+
+.redClass{
+    @include flex(row, wrap, center, none, 2.5rem);
+    list-style: none;
+    text-decoration: none;
+    a{
+        list-style: none;
+        text-decoration: none;
+    }
+}
+
+.articleClass{
+    display: flex;
+    justify-content: center;
+    color: map-get($color, blanco);
+    text-decoration: none;
+    list-style: none;
+    li{
+        h2{
+            font-size: 1rem;
+        }
+    }
+}
+
+.footerEnd{
+    display: flex;
+    justify-content: center;
+    color: map-get($color, blanco);
+    font-weight: 1rem;
+    p{
+        a{
+            text-decoration: none;
+        }
+    }
+}

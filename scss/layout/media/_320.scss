@@ -1,0 +1,23 @@
+@media (max-width: 320px){
+    body{
+        height: 100vh;
+    }
+    
+    /* header x 320px */
+
+    /* main x 320px */
+    .carruselClass{
+        display: none;
+    }
+    /* footer x 320px */
+    .subClass{
+        font-size: .5rem;
+    }
+    .subClass h2{
+        font-size: .5rem;
+    }
+    .footerEnd{
+        font-size: .5rem;
+        text-align: center;
+    }
+}

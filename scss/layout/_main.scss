@@ -1,0 +1,40 @@
+// main 
+
+.carruselClass{
+    margin: 1.25rem;
+}
+
+.h1Class{
+    padding-top: 1.25rem;
+    text-align: center;
+    color: map-get($color, negro);
+}
+
+.galeriaClass{
+    display: block;
+    div{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 200px);
+        grid-template-rows: repeat(3, 12.5rem);
+        grid-template-areas:
+            "img2 img4 img3 img3 img1"
+            "img5 img5 img3 img3 img1"
+            "img5 img5 img3 img3 img1"
+    ;
+    }
+}
+
+.infoClass{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.25rem;
+    h1{
+        font-size: 1.25rem;
+    }
+    p{
+        display: flex;
+        font-size: 15px;
+    }
+}

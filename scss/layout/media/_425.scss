@@ -1,0 +1,53 @@
+@media (max-width: 425px) {
+    body{
+        height: 100vh;
+    }
+    /* header x 425px */
+    .dropdown-menu{
+        background-color: #181818 !important;
+    }
+    .dropdown-menu a{
+        color: white !important;
+    }
+    .dropdown-menu a:hover{
+        background-color: #808080 !important;
+    }
+    .dropdown-item{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .navBar{
+        display: none;
+    }
+    .navBar2{
+        display: none;
+    }
+    .navbarResolution{
+        display: block;
+        list-style: none;
+        text-decoration: none;
+        padding-right: 45%;
+    }
+    
+    /* main x 425px */
+    .galeriaClass{
+        display: none;
+    }
+    .carruselClass{
+        display: none;
+    }
+    /* footer x 425px */
+    .subClass{
+        gap: .625rem;
+        color: white;
+        font-size: .625rem;
+    }
+    .subClass h2{
+        font-size: .625rem;
+        font-weight: bold;
+    }
+    .footerEnd{
+        font-size: .375rem;
+        text-align: center;
+    }
+}
