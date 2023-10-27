@@ -20,9 +20,7 @@
         }
     }
     div{
-        display: flex;
-        align-items: center;
-        list-style: none;
+        @extend .navBar;
         gap: 1.25rem;
         padding: .9375rem 1.25rem 0px 0px;
         ul{

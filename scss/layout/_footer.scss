@@ -20,14 +20,14 @@ footer{
             all:initial;
             border-radius: 3%;
             overflow: hidden;
-            box-shadow: .25rem .1875rem .4375rem white;
-            color: white;
+            box-shadow: .25rem .1875rem .4375rem map-get($color, blanco );
+            color: map-get($color, blanco );
         }
         input:nth-child(2){
             content: "Enviar";
             all:initial;
             padding-left: 20px;
-            color: white;
+            color: map-get($color, blanco );
             cursor: pointer;
         }
     }
